@@ -657,3 +657,34 @@ Caused by: java.lang.ClassNotFoundException: jakarta.servlet.jsp.jstl.core.LoopT
 2026-01-09 01:51:14.559  INFO 1 --- [http-nio-8080-exec-2] c.r.f.aop.LoggingAspect                  : [FileExtensionPolicyService] getFixedPolicies finished in 23ms
 2026-01-09 01:51:14.561  INFO 1 --- [http-nio-8080-exec-2] c.r.f.aop.LoggingAspect                  : [FileExtensionPolicyService] getCustomPolicies starts with args: []
 2026-01-09 01:51:14.565  INFO 1 --- [http-nio-8080-exec-2] c.r.f.aop.LoggingAspect                  : [FileExtensionPolicyService] getCustomPolicies finished in 3ms
+2026-01-09 02:44:39.483  INFO 1 --- [main] c.r.f.FileExtensionBlockerApplication    : Starting FileExtensionBlockerApplication v0.0.1-SNAPSHOT using Java 17.0.17 with PID 1 (/usr/local/tomcat/webapps/ROOT/WEB-INF/classes started by root in /usr/local/tomcat)
+2026-01-09 02:44:39.486 DEBUG 1 --- [main] c.r.f.FileExtensionBlockerApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2026-01-09 02:44:39.487  INFO 1 --- [main] c.r.f.FileExtensionBlockerApplication    : The following 1 profile is active: "prod"
+2026-01-09 02:44:39.763  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09 02:44:39.796  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-01-09 02:44:39.976  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 475 ms
+2026-01-09 02:44:40.154  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09 02:44:40.181  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2026-01-09 02:44:40.198  INFO 1 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-09 02:44:40.333  INFO 1 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-09 02:44:40.348  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-09 02:44:40.435  INFO 1 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@545fb9e
+2026-01-09 02:44:40.436  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-09 02:44:40.476  INFO 1 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-09 02:44:40.826  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-09 02:44:40.852  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 02:44:41.375  INFO 1 --- [main] c.r.f.FileExtensionBlockerApplication    : Started FileExtensionBlockerApplication in 2.133 seconds (process running for 3.443)
+2026-01-09 02:44:41.448 DEBUG 1 --- [main] c.r.f.filter.MdcFilter                   : Filter 'mdcFilter' configured for use
+2026-01-09 02:44:58.237  INFO 1 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-09 02:44:58.239  INFO 1 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-09 02:44:58.264  INFO 1 --- [http-nio-8080-exec-1] c.r.f.aop.LoggingAspect                  : [FileExtensionPolicyService] getFixedPolicies starts with args: []
+2026-01-09 02:44:58.285  INFO 1 --- [http-nio-8080-exec-1] c.r.f.aop.LoggingAspect                  : [FileExtensionPolicyService] getFixedPolicies finished in 20ms
+2026-01-09 02:44:58.287  INFO 1 --- [http-nio-8080-exec-1] c.r.f.aop.LoggingAspect                  : [FileExtensionPolicyService] getCustomPolicies starts with args: []
+2026-01-09 02:44:58.290  INFO 1 --- [http-nio-8080-exec-1] c.r.f.aop.LoggingAspect                  : [FileExtensionPolicyService] getCustomPolicies finished in 3ms
