@@ -4,6 +4,7 @@
 
 <!-- TOC -->
 * [File Extension Blocker](#file-extension-blocker)
+  * [배포 주소](#배포-주소)
   * [사용 방법](#사용-방법)
   * [실행 방법](#실행-방법)
     * [Docker Compose 실행](#docker-compose-실행)
@@ -21,6 +22,10 @@
     * [4. 개발·배포 환경 구성](#4-개발배포-환경-구성)
     * [5. 서버 사이드 렌더링 UI](#5-서버-사이드-렌더링-ui)
 <!-- TOC -->
+
+## 배포 주소
+
+배포된 사이트는 [여기로](https://extension-blocker.r-e.kr/) 접근 가능합니다!
 
 ## 사용 방법
 
